@@ -33,7 +33,7 @@ kotlin {
     targetFromPreset(presets.iosArm64, 'iosArm64')
     targetFromPreset(presets.mingwX64, 'mingw') {
       compilations.main.extraOpts("-linker-options", "-Lc:\\msys64\\mingw64\\lib")
-      compilations.test.extraOpts("-linker-options", "-Lc:\\ProgramData\\chocolatey\\lib")
+      compilations.test.extraOpts("-linker-options", "-Lc:\\ProgramData\\chocolatey\\lib\\SQLite\\tools")
     }
   }
 
