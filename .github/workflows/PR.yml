@@ -1,0 +1,52 @@
+name: Test pull request
+
+on: [push, pull_request]
+
+jobs:
+  macos-build:
+    runs-on: macOS-latest
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v1
+    - uses: actions/cache@v1
+      with:
+        path: ~/.gradle/caches
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Run emulator tests
+      uses: reactivecircus/android-emulator-runner@v2
+      with:
+        api-level: 29
+        script: ./gradlew build iosTest
+  windows-build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v1
+    - name: Set up the cache
+      uses: actions/cache@v1
+      with:
+        path: ~/.gradle/caches
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+    - name: Set up SQLite
+      uses: crazy-max/ghaction-chocolatey@v1
+      with:
+        args: install sqlite
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Run driver tests
+      run: ./gradlew mingwTest --stacktrace
+
+env:
+  GRADLE_OPTS: "-Dorg.gradle.configureondemand=true -Dorg.gradle.parallel=true -Dorg.gradle.workers.max=2 -Dkotlin.incremental=false"
