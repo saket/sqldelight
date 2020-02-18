@@ -13,7 +13,7 @@
         <meta name="description" content="SQLDelight - Generates typesafe Kotlin APIs from SQL">
       
       
-        <link rel="canonical" href="https://saket.github.io/sqldelight/android/transactions/">
+        <link rel="canonical" href="https://saket.github.io/sqldelight/custom_projections/">
       
       
         <meta name="author" content="Square, Inc.">
@@ -37,18 +37,18 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../images/icon-cashapp.png">
+      <link rel="shortcut icon" href="../images/icon-cashapp.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
       
-        <title>Transactions - SQLDelight</title>
+        <title>Custom Projections - SQLDelight</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -57,7 +57,7 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -66,10 +66,10 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
     
-      <link rel="stylesheet" href="../../css/app.css">
+      <link rel="stylesheet" href="../css/app.css">
     
     
       
@@ -93,7 +93,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#transactions" tabindex="1" class="md-skip">
+      <a href="#custom-projections" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -104,7 +104,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="https://saket.github.io/sqldelight/" title="SQLDelight" class="md-header-nav__button md-logo">
           
-            <img src="../../images/icon-cashapp.png" width="24" height="24">
+            <img src="../images/icon-cashapp.png" width="24" height="24">
           
         </a>
       </div>
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Transactions
+                Custom Projections
               
             </span>
           
@@ -196,7 +196,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="https://saket.github.io/sqldelight/" title="SQLDelight" class="md-nav__button md-logo">
       
-        <img src="../../images/icon-cashapp.png" width="48" height="48">
+        <img src="../images/icon-cashapp.png" width="48" height="48">
       
     </a>
     SQLDelight
@@ -230,8 +230,41 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Overview" class="md-nav__link">
+    <a href=".." title="Overview" class="md-nav__link">
       Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Custom Projections" class="md-nav__link md-nav__link--active">
+      Custom Projections
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../query_arguments/" title="Query Arguments" class="md-nav__link">
+      Query Arguments
     </a>
   </li>
 
@@ -242,7 +275,199 @@
 
 
   <li class="md-nav__item">
-    <a href="../../changelog.md" title="Changelog" class="md-nav__link">
+    <a href="../types/" title="Types" class="md-nav__link">
+      Types
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../transactions/" title="Transactions" class="md-nav__link">
+      Transactions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../custom_column_types/" title="Custom Column Types" class="md-nav__link">
+      Custom Column Types
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../migrations/" title="Migrations" class="md-nav__link">
+      Migrations
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../rxjava/" title="RxJava" class="md-nav__link">
+      RxJava
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../multiplatform/" title="Multiplatform" class="md-nav__link">
+      Multiplatform
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../android_paging/" title="Android Paging" class="md-nav__link">
+      Android Paging
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../supported_dialects/" title="Supported Dialects" class="md-nav__link">
+      Supported Dialects
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../intellij_plugin/" title="IntelliJ Plugin" class="md-nav__link">
+      IntelliJ Plugin
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../gradle/" title="Gradle" class="md-nav__link">
+      Gradle
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-14" type="checkbox" id="nav-14">
+    
+    <label class="md-nav__link" for="nav-14">
+      1.x API
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-14">
+        1.x API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.x/coroutines-extensions/index.html" title="coroutines-extensions" class="md-nav__link">
+      coroutines-extensions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.x/native-driver/index.html" title="native-driver" class="md-nav__link">
+      native-driver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.x/runtime/index.html" title="runtime" class="md-nav__link">
+      runtime
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../upgrading.md" title="Upgrading" class="md-nav__link">
+      Upgrading
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../changelog.md" title="Changelog" class="md-nav__link">
       Changelog
     </a>
   </li>
@@ -254,8 +479,20 @@
 
 
   <li class="md-nav__item">
-    <a href="/android/" title="Android" class="md-nav__link">
-      Android
+    <a href="../contributing.md" title="Contributing" class="md-nav__link">
+      Contributing
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../code_of_conduct/" title="Code of Conduct" class="md-nav__link">
+      Code of Conduct
     </a>
   </li>
 
@@ -287,18 +524,31 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/saket/sqldelight/edit/master/docs/android/transactions.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/saket/sqldelight/edit/master/docs/custom_projections.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="transactions">Transactions</h1>
-<p>If you want to execute multiple statements under one transaction, use <code>transaction</code> function. </p>
-<div class="codehilite"><pre><span></span><span class="k">val</span> <span class="py">players</span> <span class="p">=</span> <span class="n">listOf</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;()</span>
-<span class="n">database</span><span class="p">.</span><span class="n">playerQueries</span><span class="p">.</span><span class="n">transaction</span> <span class="p">{</span>
-  <span class="n">players</span><span class="p">.</span><span class="n">foreach</span> <span class="p">{</span> <span class="n">player</span> <span class="p">-&gt;</span>
-    <span class="n">database</span><span class="p">.</span><span class="n">playerQueries</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">player_number</span> <span class="p">=</span> <span class="n">player</span><span class="p">.</span><span class="n">number</span><span class="p">,</span> <span class="n">full_name</span> <span class="p">=</span> <span class="n">player</span><span class="p">.</span><span class="n">fullName</span><span class="p">)</span>
-  <span class="p">}</span>
-<span class="p">}</span>
+                <h1 id="custom-projections">Custom Projections</h1>
+<p>By default queries will return a data class implementation of the table schema. To override this behavior pass a custom mapper to the query function. Your custom mapper will receive typesafe parameters which are the projection of your select statement.</p>
+<div class="codehilite"><pre><span></span><span class="k">val</span> <span class="py">selectAllNames</span> <span class="p">=</span> <span class="n">playerQueries</span><span class="p">.</span><span class="n">selectAll</span><span class="p">(</span><span class="n">mapper</span> <span class="p">=</span> <span class="p">{</span> <span class="n">player_number</span><span class="p">,</span> <span class="n">full_name</span> <span class="p">-&gt;</span> <span class="n">full_name</span><span class="p">.</span><span class="n">toUppercase</span><span class="p">()</span> <span class="p">})</span>
+<span class="n">println</span><span class="p">(</span><span class="n">selectAllNames</span><span class="p">.</span><span class="n">executeAsList</span><span class="p">())</span>
+<span class="c1">// Prints [&quot;RYAN GETZLAF&quot;, &quot;COREY PERRY&quot;]</span>
 </pre></div>
+
+
+<p>In general you should be leveraging SQL to do custom projections whenever possible.</p>
+<div class="codehilite"><pre><span></span><span class="n">selectNames</span><span class="p">:</span>
+<span class="k">SELECT</span> <span class="k">upper</span><span class="p">(</span><span class="n">full_name</span><span class="p">)</span>
+<span class="k">FROM</span> <span class="n">hockeyPlayer</span><span class="p">;</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="k">val</span> <span class="py">selectAllNames</span> <span class="p">=</span> <span class="n">playerQueries</span><span class="p">.</span><span class="n">selectNames</span><span class="p">()</span>
+<span class="n">println</span><span class="p">(</span><span class="n">selectAllNames</span><span class="p">.</span><span class="n">executeAsList</span><span class="p">())</span>
+<span class="c1">// Prints [&quot;RYAN GETZLAF&quot;, &quot;COREY PERRY&quot;]</span>
+</pre></div>
+
+
+<p>But the custom mapping is there when this isn't possible, for example getting a <code>Parcelable</code> type for query results on Android.</p>
                 
                   
                 
@@ -316,6 +566,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Overview
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../query_arguments/" title="Query Arguments" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Query Arguments
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -338,9 +623,9 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
     
   </body>
