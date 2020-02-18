@@ -13,7 +13,7 @@
         <meta name="description" content="SQLDelight - Generates typesafe Kotlin APIs from SQL">
       
       
-        <link rel="canonical" href="https://cashapp.github.io/sqldelight/">
+        <link rel="canonical" href="https://cashapp.github.io/sqldelight/ios/custom_column_types/">
       
       
         <meta name="author" content="Square, Inc.">
@@ -37,18 +37,18 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="images/icon-cashapp.png">
+      <link rel="shortcut icon" href="../../images/icon-cashapp.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
       
-        <title>SQLDelight</title>
+        <title>Custom Column Types - SQLDelight</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
       
-        <link rel="stylesheet" href="assets/stylesheets/application-palette.a8b3c06d.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -57,7 +57,7 @@
       
     
     
-      <script src="assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -66,10 +66,10 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
-      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="../../css/app.css">
     
     
       
@@ -93,7 +93,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#sqldelight" tabindex="1" class="md-skip">
+      <a href="#custom-column-types" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -104,7 +104,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="https://cashapp.github.io/sqldelight/" title="SQLDelight" class="md-header-nav__button md-logo">
           
-            <img src="images/icon-cashapp.png" width="24" height="24">
+            <img src="../../images/icon-cashapp.png" width="24" height="24">
           
         </a>
       </div>
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Overview
+                Custom Column Types
               
             </span>
           
@@ -187,14 +187,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="." class="md-tabs__link md-tabs__link--active">
+      <a href="../.." class="md-tabs__link">
         Overview
       </a>
     
@@ -208,7 +210,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="android/" class="md-tabs__link">
+        <a href="../../android/" class="md-tabs__link">
           Android
         </a>
       
@@ -221,7 +223,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="ios/" class="md-tabs__link">
+        <a href="../" class="md-tabs__link md-tabs__link--active">
           iOS
         </a>
       
@@ -244,7 +246,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="https://cashapp.github.io/sqldelight/" title="SQLDelight" class="md-nav__button md-logo">
       
-        <img src="images/icon-cashapp.png" width="48" height="48">
+        <img src="../../images/icon-cashapp.png" width="48" height="48">
       
     </a>
     SQLDelight
@@ -276,20 +278,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="." title="Overview" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../.." title="Overview" class="md-nav__link">
       Overview
     </a>
-    
   </li>
 
     
@@ -299,7 +292,7 @@
 
 
   <li class="md-nav__item">
-    <a href="changelog.md" title="Changelog" class="md-nav__link">
+    <a href="../../changelog.md" title="Changelog" class="md-nav__link">
       Changelog
     </a>
   </li>
@@ -330,7 +323,7 @@
 
 
   <li class="md-nav__item">
-    <a href="android/" title="Overview" class="md-nav__link">
+    <a href="../../android/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -342,7 +335,7 @@
 
 
   <li class="md-nav__item">
-    <a href="android/custom_column_types/" title="Custom Column Types" class="md-nav__link">
+    <a href="../../android/custom_column_types/" title="Custom Column Types" class="md-nav__link">
       Custom Column Types
     </a>
   </li>
@@ -354,7 +347,7 @@
 
 
   <li class="md-nav__item">
-    <a href="android/android_paging/" title="Android Paging" class="md-nav__link">
+    <a href="../../android/android_paging/" title="Android Paging" class="md-nav__link">
       Android Paging
     </a>
   </li>
@@ -366,7 +359,7 @@
 
 
   <li class="md-nav__item">
-    <a href="android/rxjava/" title="RxJava" class="md-nav__link">
+    <a href="../../android/rxjava/" title="RxJava" class="md-nav__link">
       RxJava
     </a>
   </li>
@@ -381,10 +374,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       iOS
@@ -402,7 +397,7 @@
 
 
   <li class="md-nav__item">
-    <a href="ios/" title="Overview" class="md-nav__link">
+    <a href="../" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -412,11 +407,49 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="ios/custom_column_types/" title="Custom Column Types" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Custom Column Types
+      </label>
+    
+    <a href="./" title="Custom Column Types" class="md-nav__link md-nav__link--active">
       Custom Column Types
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#enums" class="md-nav__link">
+    Enums
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -442,6 +475,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#enums" class="md-nav__link">
+    Enums
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -452,35 +501,51 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/cashapp/sqldelight/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/cashapp/sqldelight/edit/master/docs/ios/custom_column_types.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="sqldelight">SQLDelight</h1>
-<p>SQLDelight generates typesafe APIs from your SQL statements. It compile-time verifies your schema, statements, and migrations and provides IDE features like autocomplete and refactoring which make writing and maintaining SQL simple. SQLDelight currently supports the SQLite dialect and there are supported SQLite drivers on Android, JVM, iOS, and Windows.</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th><a href="android">Android</a></th>
-<th><a href="ios">iOS</a></th>
-<th>JVM</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>SQLite</td>
-<td>✅</td>
-<td>✅</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>MySQL</td>
-<td>⛔️</td>
-<td>⛔️</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
+                <h1 id="custom-column-types">Custom Column Types</h1>
+<p>If you'd like to retrieve columns as custom types you can specify a Kotlin type:</p>
+<div class="codehilite"><pre><span></span><span class="n">import</span> <span class="n">kotlin</span><span class="p">.</span><span class="n">collections</span><span class="p">.</span><span class="n">List</span><span class="p">;</span>
+
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">hockeyPlayer</span> <span class="p">(</span>
+  <span class="n">cup_wins</span> <span class="nb">TEXT</span> <span class="k">AS</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="k">NOT</span> <span class="k">NULL</span>
+<span class="p">);</span>
+</pre></div>
+
+
+<p>However, creating the <code>Database</code> will require you to provide a <code>ColumnAdapter</code> which knows how to map between the database type and your custom type:</p>
+<div class="codehilite"><pre><span></span><span class="k">val</span> <span class="py">listOfStringsAdapter</span> <span class="p">=</span> <span class="k">object</span> <span class="p">:</span> <span class="nc">ColumnAdapter</span><span class="p">&lt;</span><span class="n">List</span><span class="p">&lt;</span><span class="n">String</span><span class="p">&gt;,</span> <span class="n">String</span><span class="p">&gt;</span> <span class="p">{</span>
+  <span class="k">override</span> <span class="k">fun</span> <span class="nf">decode</span><span class="p">(</span><span class="n">databaseValue</span><span class="p">:</span> <span class="n">String</span><span class="p">)</span> <span class="p">=</span> <span class="n">databaseValue</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">)</span>
+  <span class="k">override</span> <span class="k">fun</span> <span class="nf">encode</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">String</span><span class="p">&gt;)</span> <span class="p">=</span> <span class="n">value</span><span class="p">.</span><span class="n">joinToString</span><span class="p">(</span><span class="n">separator</span> <span class="p">=</span> <span class="s">&quot;,&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="k">val</span> <span class="py">queryWrapper</span><span class="p">:</span> <span class="n">Database</span> <span class="p">=</span> <span class="n">Database</span><span class="p">(</span>
+  <span class="n">driver</span> <span class="p">=</span> <span class="n">driver</span><span class="p">,</span>
+  <span class="n">hockeyPlayerAdapter</span> <span class="p">=</span> <span class="n">hockeyPlayer</span><span class="p">.</span><span class="n">Adapter</span><span class="p">(</span>
+    <span class="n">cup_winsAdapter</span> <span class="p">=</span> <span class="n">listOfStringsAdapter</span>
+  <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+
+
+<h2 id="enums">Enums</h2>
+<p>As a convenience the SQLDelight runtime includes a <code>ColumnAdapter</code> for storing an enum as TEXT.</p>
+<div class="codehilite"><pre><span></span><span class="n">import</span> <span class="n">com</span><span class="p">.</span><span class="n">example</span><span class="p">.</span><span class="n">hockey</span><span class="p">.</span><span class="n">HockeyPlayer</span><span class="p">;</span>
+
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">hockeyPlayer</span> <span class="p">(</span>
+  <span class="k">position</span> <span class="nb">TEXT</span> <span class="k">AS</span> <span class="n">HockeyPlayer</span><span class="p">.</span><span class="k">Position</span>
+<span class="p">)</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="k">val</span> <span class="py">queryWrapper</span><span class="p">:</span> <span class="n">Database</span> <span class="p">=</span> <span class="n">Database</span><span class="p">(</span>
+  <span class="n">driver</span> <span class="p">=</span> <span class="n">driver</span><span class="p">,</span>
+  <span class="n">hockeyPlayerAdapter</span> <span class="p">=</span> <span class="n">HockeyPlayer</span><span class="p">.</span><span class="n">Adapter</span><span class="p">(</span>
+    <span class="n">positionAdapter</span> <span class="p">=</span> <span class="n">EnumColumnAdapter</span><span class="p">()</span>
+  <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
                 
                   
                 
@@ -502,20 +567,20 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-        
-          <a href="android/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
                 Overview
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -541,9 +606,9 @@
       
     </div>
     
-      <script src="assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
     
   </body>

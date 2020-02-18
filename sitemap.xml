@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://saket.github.io/sqldelight/</loc>
+     <loc>https://cashapp.github.io/sqldelight/</loc>
      <lastmod>2020-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,8 +11,33 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://cashapp.github.io/sqldelight/android/</loc>
+     <lastmod>2020-02-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://cashapp.github.io/sqldelight/android/custom_column_types/</loc>
+     <lastmod>2020-02-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://cashapp.github.io/sqldelight/android/android_paging/</loc>
+     <lastmod>2020-02-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://cashapp.github.io/sqldelight/android/rxjava/</loc>
+     <lastmod>2020-02-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://cashapp.github.io/sqldelight/ios/</loc>
+     <lastmod>2020-02-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://cashapp.github.io/sqldelight/ios/custom_column_types/</loc>
+     <lastmod>2020-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
