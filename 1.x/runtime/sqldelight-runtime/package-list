@@ -1,5 +1,0 @@
-$dokka.format:html
-$dokka.linkExtension:html
-
-com.squareup.sqldelight
-com.squareup.sqldelight.db

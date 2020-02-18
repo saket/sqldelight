@@ -1,3 +1,0 @@
-CREATE TABLE internaL_debug (
-  internal_debug_value TEXT NOT NULL
-);

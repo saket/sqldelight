@@ -1,3 +1,0 @@
-CREATE TABLE production (
-  production_value TEXT NOT NULL -- very high
-);

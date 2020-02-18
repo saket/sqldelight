@@ -1,3 +1,0 @@
-CREATE TABLE production_debug (
-  production_debug_value TEXT NOT NULL
-);

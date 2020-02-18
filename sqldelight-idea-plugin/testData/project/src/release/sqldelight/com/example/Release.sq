@@ -1,3 +1,0 @@
-CREATE TABLE release (
-  release_value TEXT NOT NULL
-);

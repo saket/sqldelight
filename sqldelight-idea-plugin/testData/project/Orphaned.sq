@@ -1,3 +1,0 @@
-CREATE TABLE orphaned (
-  orphaned_value TEXT NOT NULL
-);
