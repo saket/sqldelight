@@ -4,5 +4,5 @@ SQLDelight generates typesafe APIs from your SQL statements. It compile-time ver
 
 |  | Android | Native (iOS, macOS or Windows) | JVM | Javascript | Multiplatform |
 | --- | --- | --- | --- | --- | --- |
-| SQLite | [✅](android) | [✅](native) | ✅ | ✅ | ✅
-| MySQL | ⛔️ | ⛔️ | ✅ | ⛔️ | ⛔️ | ⛔️ |
+| SQLite | [✅](android_sqlite) | [✅](native_sqlite) | [✅](jvm_sqlite) | [✅](js_sqlite) | [✅](multiplatform_sqlite)
+| MySQL | ⛔️ | ⛔️ | [✅](jvm_mysql) | ⛔️ | ⛔️ | ⛔️ |

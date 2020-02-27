@@ -12,38 +12,94 @@ nav:
   - 'Changelog': changelog.md
   - 'Contributing': contributing.md
   - 'Code of Conduct': code_of_conduct.md
-  - 'Android':
-    - 'Android Overview': android/index.md
-    - 'Custom Projections': android/custom_projections.md
-    - 'Query Arguments': android/query_arguments.md
-    - 'Types': android/types.md
-    - 'Transactions': android/transactions.md
-    - 'Custom Column Types': android/custom_column_types.md
-    - 'Migrations': android/migrations.md
-    - 'RxJava': android/rxjava.md
-    - 'Multiplatform': android/multiplatform.md
-    - 'Android Paging': android/android_paging.md
-    - 'IntelliJ Plugin': android/intellij_plugin.md
-    - 'Gradle': android/gradle.md
-    - 'Upgrading': android/upgrading.md
+  - 'Android SQLite':
+    - 'Overview': android_sqlite/index.md
+    - 'Custom Projections': android_sqlite/custom_projections.md
+    - 'Query Arguments': android_sqlite/query_arguments.md
+    - 'Types': android_sqlite/types.md
+    - 'Transactions': android_sqlite/transactions.md
+    - 'Custom Column Types': android_sqlite/custom_column_types.md
+    - 'Migrations': android_sqlite/migrations.md
+    - 'RxJava': android_sqlite/rxjava.md
+    - 'Multiplatform': android_sqlite/multiplatform.md
+    - 'Android Paging': android_sqlite/android_paging.md
+    - 'IntelliJ Plugin': android_sqlite/intellij_plugin.md
+    - 'Gradle': android_sqlite/gradle.md
+    - 'Upgrading': android_sqlite/upgrading.md
     - '1.x API':
-        - 'coroutines-extensions': android/1.x/coroutines-extensions/index.html
-        - 'native-driver': android/1.x/native-driver/index.html
-        - 'runtime': android/1.x/runtime/index.html
-  - 'Native':
-    - 'Native Overview': native/index.md
-    - 'Custom Projections': native/custom_projections.md
-    - 'Query Arguments': native/query_arguments.md
-    - 'Types': native/types.md
-    - 'Transactions': native/transactions.md
-    - 'Custom Column Types': native/custom_column_types.md
-    - 'Migrations': native/migrations.md
-    - 'Multiplatform': native/multiplatform.md
-    - 'Gradle': native/gradle.md
+        - 'coroutines-extensions': android_sqlite/1.x/coroutines-extensions/index.html
+        - 'native-driver': android_sqlite/1.x/native-driver/index.html
+        - 'runtime': android_sqlite/1.x/runtime/index.html
+  - 'Native SQLite':
+    - 'Overview': native_sqlite/index.md
+    - 'Custom Projections': native_sqlite/custom_projections.md
+    - 'Query Arguments': native_sqlite/query_arguments.md
+    - 'Types': native_sqlite/types.md
+    - 'Transactions': native_sqlite/transactions.md
+    - 'Custom Column Types': native_sqlite/custom_column_types.md
+    - 'Migrations': native_sqlite/migrations.md
+    - 'Multiplatform': native_sqlite/multiplatform.md
+    - 'Gradle': native_sqlite/gradle.md
     - '1.x API':
-        - 'coroutines-extensions': native/1.x/coroutines-extensions/index.html
-        - 'native-driver': native/1.x/native-driver/index.html
-        - 'runtime': native/1.x/runtime/index.html
+        - 'coroutines-extensions': native_sqlite/1.x/coroutines-extensions/index.html
+        - 'native-driver': native_sqlite/1.x/native-driver/index.html
+        - 'runtime': native_sqlite/1.x/runtime/index.html
+  - 'JVM SQLite':
+      - 'Overview': jvm_sqlite/index.md
+      - 'Custom Projections': jvm_sqlite/custom_projections.md
+      - 'Query Arguments': jvm_sqlite/query_arguments.md
+      - 'Types': jvm_sqlite/types.md
+      - 'Transactions': jvm_sqlite/transactions.md
+      - 'Custom Column Types': jvm_sqlite/custom_column_types.md
+      - 'Migrations': jvm_sqlite/migrations.md
+      - 'Multiplatform': jvm_sqlite/multiplatform.md
+      - 'Gradle': jvm_sqlite/gradle.md
+      - '1.x API':
+          - 'coroutines-extensions': jvm_sqlite/1.x/coroutines-extensions/index.html
+          - 'native-driver': jvm_sqlite/1.x/native-driver/index.html
+          - 'runtime': jvm_sqlite/1.x/runtime/index.html
+  - 'JVM MySql':
+      - 'Overview': jvm_mysql/index.md
+      - 'Custom Projections': jvm_mysql/custom_projections.md
+      - 'Query Arguments': jvm_mysql/query_arguments.md
+      - 'Types': jvm_mysql/types.md
+      - 'Transactions': jvm_mysql/transactions.md
+      - 'Custom Column Types': jvm_mysql/custom_column_types.md
+      - 'Migrations': jvm_mysql/migrations.md
+      - 'Multiplatform': jvm_mysql/multiplatform.md
+      - 'Gradle': jvm_mysql/gradle.md
+      - '1.x API':
+          - 'coroutines-extensions': jvm_mysql/1.x/coroutines-extensions/index.html
+          - 'native-driver': jvm_mysql/1.x/native-driver/index.html
+          - 'runtime': jvm_mysql/1.x/runtime/index.html
+  - 'JS SQLite':
+      - 'Overview': js_sqlite/index.md
+      - 'Custom Projections': js_sqlite/custom_projections.md
+      - 'Query Arguments': js_sqlite/query_arguments.md
+      - 'Types': js_sqlite/types.md
+      - 'Transactions': js_sqlite/transactions.md
+      - 'Custom Column Types': js_sqlite/custom_column_types.md
+      - 'Migrations': js_sqlite/migrations.md
+      - 'Multiplatform': js_sqlite/multiplatform.md
+      - 'Gradle': js_sqlite/gradle.md
+      - '1.x API':
+          - 'coroutines-extensions': js_sqlite/1.x/coroutines-extensions/index.html
+          - 'native-driver': js_sqlite/1.x/native-driver/index.html
+          - 'runtime': js_sqlite/1.x/runtime/index.html
+  - 'Multiplatform SQLite':
+      - 'Overview': multiplatform_sqlite/index.md
+      - 'Custom Projections': multiplatform_sqlite/custom_projections.md
+      - 'Query Arguments': multiplatform_sqlite/query_arguments.md
+      - 'Types': multiplatform_sqlite/types.md
+      - 'Transactions': multiplatform_sqlite/transactions.md
+      - 'Custom Column Types': multiplatform_sqlite/custom_column_types.md
+      - 'Migrations': multiplatform_sqlite/migrations.md
+      - 'Multiplatform': multiplatform_sqlite/multiplatform.md
+      - 'Gradle': multiplatform_sqlite/gradle.md
+      - '1.x API':
+          - 'coroutines-extensions': multiplatform_sqlite/1.x/coroutines-extensions/index.html
+          - 'native-driver': multiplatform_sqlite/1.x/native-driver/index.html
+          - 'runtime': multiplatform_sqlite/1.x/runtime/index.html
 
 theme:
   name: 'material'
