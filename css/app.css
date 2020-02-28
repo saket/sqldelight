@@ -68,11 +68,6 @@ nav.md-tabs {
 .md-typeset table:not([class]) th {
   background-color: #eee5ff;
 }
-
-[data-md-color-primary=deep-purple] .md-typeset a {
-  color: #884bf2;
-}
-
 .md-typeset table:not([class]) th {
   color: black !important;
 }

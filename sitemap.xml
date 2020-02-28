@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://saket.github.io/sqldelight/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
@@ -11,33 +11,388 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://saket.github.io/sqldelight/android/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://saket.github.io/sqldelight/android/custom_column_types/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://saket.github.io/sqldelight/android/android_paging/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/</loc>
+     <lastmod>2020-02-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://saket.github.io/sqldelight/android/rxjava/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/custom_projections/</loc>
+     <lastmod>2020-02-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://saket.github.io/sqldelight/ios/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/query_arguments/</loc>
+     <lastmod>2020-02-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://saket.github.io/sqldelight/ios/custom_column_types/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/transactions/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/custom_column_types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/migrations/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/rxjava/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/multiplatform/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/android_paging/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/intellij_plugin/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/gradle/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/android_sqlite/upgrading/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/custom_projections/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/query_arguments/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/transactions/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/custom_column_types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/migrations/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/multiplatform/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/native_sqlite/gradle/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/custom_projections/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/query_arguments/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/transactions/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/custom_column_types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/migrations/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/multiplatform/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_sqlite/gradle/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/custom_projections/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/query_arguments/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/transactions/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/custom_column_types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/migrations/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/multiplatform/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/jvm_mysql/gradle/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/custom_projections/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/query_arguments/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/transactions/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/custom_column_types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/migrations/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/multiplatform/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/js_sqlite/gradle/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/custom_projections/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/query_arguments/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/transactions/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/custom_column_types/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/migrations/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://saket.github.io/sqldelight/multiplatform_sqlite/gradle/</loc>
+     <lastmod>2020-02-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
 </urlset>
