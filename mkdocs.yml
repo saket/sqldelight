@@ -26,10 +26,10 @@ nav:
     - 'IntelliJ Plugin': android_sqlite/intellij_plugin.md
     - 'Gradle': android_sqlite/gradle.md
     - 'Upgrading': android_sqlite/upgrading.md
-#    - '1.x API':
-#        - 'coroutines-extensions': android_sqlite/1.x/coroutines-extensions/index.html
-#        - 'native-driver': android_sqlite/1.x/native-driver/index.html
-#        - 'runtime': android_sqlite/1.x/runtime/index.html
+    - '1.x API':
+        - 'coroutines-extensions': android_sqlite/1.x/coroutines-extensions/index.html
+        - 'native-driver': android_sqlite/1.x/native-driver/index.html
+        - 'runtime': android_sqlite/1.x/runtime/index.html
   - 'Native SQLite':
     - 'Overview': native_sqlite/index.md
     - 'Custom Projections': native_sqlite/custom_projections.md
@@ -40,10 +40,10 @@ nav:
     - 'Migrations': native_sqlite/migrations.md
     - 'Multiplatform': native_sqlite/multiplatform.md
     - 'Gradle': native_sqlite/gradle.md
-#    - '1.x API':
-#        - 'coroutines-extensions': native_sqlite/1.x/coroutines-extensions/index.html
-#        - 'native-driver': native_sqlite/1.x/native-driver/index.html
-#        - 'runtime': native_sqlite/1.x/runtime/index.html
+    - '1.x API':
+        - 'coroutines-extensions': native_sqlite/1.x/coroutines-extensions/index.html
+        - 'native-driver': native_sqlite/1.x/native-driver/index.html
+        - 'runtime': native_sqlite/1.x/runtime/index.html
   - 'JVM SQLite':
       - 'Overview': jvm_sqlite/index.md
       - 'Custom Projections': jvm_sqlite/custom_projections.md
@@ -54,10 +54,10 @@ nav:
       - 'Migrations': jvm_sqlite/migrations.md
       - 'Multiplatform': jvm_sqlite/multiplatform.md
       - 'Gradle': jvm_sqlite/gradle.md
-#      - '1.x API':
-#          - 'coroutines-extensions': jvm_sqlite/1.x/coroutines-extensions/index.html
-#          - 'native-driver': jvm_sqlite/1.x/native-driver/index.html
-#          - 'runtime': jvm_sqlite/1.x/runtime/index.html
+      - '1.x API':
+          - 'coroutines-extensions': jvm_sqlite/1.x/coroutines-extensions/index.html
+          - 'native-driver': jvm_sqlite/1.x/native-driver/index.html
+          - 'runtime': jvm_sqlite/1.x/runtime/index.html
   - 'JVM MySql':
       - 'Overview': jvm_mysql/index.md
       - 'Custom Projections': jvm_mysql/custom_projections.md
@@ -68,10 +68,10 @@ nav:
       - 'Migrations': jvm_mysql/migrations.md
       - 'Multiplatform': jvm_mysql/multiplatform.md
       - 'Gradle': jvm_mysql/gradle.md
-#      - '1.x API':
-#          - 'coroutines-extensions': jvm_mysql/1.x/coroutines-extensions/index.html
-#          - 'native-driver': jvm_mysql/1.x/native-driver/index.html
-#          - 'runtime': jvm_mysql/1.x/runtime/index.html
+      - '1.x API':
+          - 'coroutines-extensions': jvm_mysql/1.x/coroutines-extensions/index.html
+          - 'native-driver': jvm_mysql/1.x/native-driver/index.html
+          - 'runtime': jvm_mysql/1.x/runtime/index.html
   - 'JS SQLite':
       - 'Overview': js_sqlite/index.md
       - 'Custom Projections': js_sqlite/custom_projections.md
@@ -82,10 +82,10 @@ nav:
       - 'Migrations': js_sqlite/migrations.md
       - 'Multiplatform': js_sqlite/multiplatform.md
       - 'Gradle': js_sqlite/gradle.md
-#      - '1.x API':
-#          - 'coroutines-extensions': js_sqlite/1.x/coroutines-extensions/index.html
-#          - 'native-driver': js_sqlite/1.x/native-driver/index.html
-#          - 'runtime': js_sqlite/1.x/runtime/index.html
+      - '1.x API':
+          - 'coroutines-extensions': js_sqlite/1.x/coroutines-extensions/index.html
+          - 'native-driver': js_sqlite/1.x/native-driver/index.html
+          - 'runtime': js_sqlite/1.x/runtime/index.html
   - 'Multiplatform SQLite':
       - 'Overview': multiplatform_sqlite/index.md
       - 'Custom Projections': multiplatform_sqlite/custom_projections.md
@@ -94,12 +94,11 @@ nav:
       - 'Transactions': multiplatform_sqlite/transactions.md
       - 'Custom Column Types': multiplatform_sqlite/custom_column_types.md
       - 'Migrations': multiplatform_sqlite/migrations.md
-      - 'Multiplatform': multiplatform_sqlite/multiplatform.md
       - 'Gradle': multiplatform_sqlite/gradle.md
-#      - '1.x API':
-#          - 'coroutines-extensions': multiplatform_sqlite/1.x/coroutines-extensions/index.html
-#          - 'native-driver': multiplatform_sqlite/1.x/native-driver/index.html
-#          - 'runtime': multiplatform_sqlite/1.x/runtime/index.html
+      - '1.x API':
+          - 'coroutines-extensions': multiplatform_sqlite/1.x/coroutines-extensions/index.html
+          - 'native-driver': multiplatform_sqlite/1.x/native-driver/index.html
+          - 'runtime': multiplatform_sqlite/1.x/runtime/index.html
 
 theme:
   name: 'material'
